@@ -24,11 +24,11 @@ Create a new folder/directory for the project
 
 ## Author
 
-👤 **Jose Alberto Arriaga Ramos**
+👤 **Carlos Osorio**
 
-- GitHub: [@jaarkira](https://github.com/jaarkira )
-- Twitter: [@91_jaar](https://twitter.com/91_jaar )
-- LinkedIn: [Jose Arriaga](https://www.linkedin.com/in/jose-arriaga-63a851204/)
+- GitHub: [@carlos-osorio-developer](https://github.com/carlos-osorio-developer)
+- Twitter: [@OsorioDevelops](hhttps://twitter.com/@OsorioDevelops)
+- LinkedIn: [Carlos Osorio](https://www.linkedin.com/in/carlos-osorio-developer/)
 
 👤 **Jose Alberto Arriaga Ramos**
 
@@ -48,9 +48,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone who use code was used
-- Inspiration
-- etc
+- Thanks to Microverse and their supportive community.
+- Thanks to everyone commiting in this project.
 
 ## 📝 License
 
