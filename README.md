@@ -22,7 +22,7 @@ Create a new folder/directory for the project
 - go to the desired folder/directory that you want to have the project in
 - git clone gh repo clone https://github.com/carlos-osorio-developer/bubble-sorting/tree/bubblesort
 
-## Author
+## Authors
 
 👤 **Carlos Osorio**
 
