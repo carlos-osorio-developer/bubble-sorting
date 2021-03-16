@@ -9,7 +9,6 @@ def bubble_sort(nonsorted)
                 nonsorted[j+1]=a
             end
             j+=1
-            print "#{i} & #{j}"
         end
         i+=1
     end
@@ -18,7 +17,7 @@ end
 
 def bubble_sort_by(array)
     sorted=false
-    puts "Please enter a non empty array" if array.empty?
+    return puts "Please enter a non empty array" if array.empty? 
     until sorted
         0.upto(array.length - 2) do |i| 
             change=0
@@ -32,12 +31,9 @@ def bubble_sort_by(array)
             end
         end
     end
+    return array
 end
 
-p "Sorted_by array: #{bubble_sort_by(["hi","hello","hey"]) do |left,right|
-    left.length - right.length
-end}"
+puts "Sorted by array: #{bubble_sort_by(["hi","hello","hey"]){|left,right|left.length - right.length}}"
 
-
-p "Sorted array: #{bubble_sort([5,5,6,2,1])}"
-
+puts "Sorted array: #{bubble_sort([5,5,6,2,1])}"
