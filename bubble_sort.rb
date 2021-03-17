@@ -26,7 +26,3 @@ def bubble_sort_by(array)
   end
   array
 end
-
-puts "Sorted by array: #{bubble_sort_by(%w[hi hello hey]) { |left, right| left.length - right.length }}"
-
-puts "Sorted array: #{bubble_sort([5, 5, 6, 2, 1])}"
