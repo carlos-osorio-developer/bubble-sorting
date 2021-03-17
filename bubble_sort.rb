@@ -3,7 +3,7 @@ def bubble_sort(nonsorted)
   while i < nonsorted.length - 1
     j = 0
     while j < nonsorted.length - 1
-      check = nonsorted[j].to_i - nonsorted[j + 1].to_i
+      check = nonsorted[j] - nonsorted[j + 1]
       nonsorted[j], nonsorted[j + 1] = nonsorted[j + 1], nonsorted[j] if check.positive?
       j += 1
     end
@@ -15,12 +15,13 @@ end
 def bubble_sort_by(array)
   sorted = false
   until sorted
+    sorted = true
     0.upto(array.length - 2) do |i|
-      change = 0
       checker = yield(array[i], array[i + 1])
-      array[i], array[i + 1] = array[i + 1], array[i] if checker.positive?
-      change += 1 if checker.positive?
-      sorted = true if change.zero?
+      if checker.positive?
+        array[i], array[i + 1] = array[i + 1], array[i]
+        sorted = false
+      end
     end
   end
   array
