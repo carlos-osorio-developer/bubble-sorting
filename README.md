@@ -47,7 +47,7 @@ ruby bubble_sort.rb
 
 ## Authors
 
-👤 **Carlos Osorio**
+👤 **Carlos Osorio C**
 
 - GitHub: [@carlos-osorio-developer](https://github.com/carlos-osorio-developer)
 - Twitter: [@OsorioDevelops](hhttps://twitter.com/@OsorioDevelops)
