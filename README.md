@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 ## Ruby's #bubble_sort and  #bubble_sort_by methods
 
 > This is a project made with ruby to sort items inside of an array, it is composed of two methods. The first one sorts numerical items, and the other one sorts strings according to their number of letters, by using building blocks.
@@ -71,7 +69,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Microverse and their supportive community.
 - Thanks to everyone commiting in this project.
 
 ## 📝 License
